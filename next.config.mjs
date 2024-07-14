@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    images: {
+      domains: ['static1.squarespace.com'],
+    },
+  };
+  
+  export default nextConfig;
+  
